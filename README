@@ -4,3 +4,11 @@ This project is a simple "Hello World" using multiple KML file sources to
 show a map with a clickable sidebar and layer controls.  Two KML files are
 used, one which contains only placemarks (and are shown in the sidebar),
 and one which contains polygons.
+
+A sidebar is created based on the placemarks defined in the first (zero
+index) Geoxml3 document.  This sidebar uses jQuery to highlight the current
+mouse position.  It also has click events to trigger a Google Maps marker
+click.
+
+The second (one index) document contains polygons, and that, like the
+placemarks layer, have visibility controls in a footer map control area.
