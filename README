@@ -1,0 +1,6 @@
+Google Maps API v3 Meets Geoxml3
+
+This project is a simple "Hello World" using multiple KML file sources to
+show a map with a clickable sidebar and layer controls.  Two KML files are
+used, one which contains only placemarks (and are shown in the sidebar),
+and one which contains polygons.

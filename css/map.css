@@ -1,0 +1,17 @@
+#map {
+	width: 860px;
+	height: 700px;
+}
+
+#placemarkList {
+	padding: 0;
+	margin: 1em;
+	list-style-type: none;
+	list-style-position: inside;
+	height: 700px;
+}
+
+#controls {
+	width: 860px;
+	display: none;
+}

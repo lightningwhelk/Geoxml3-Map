@@ -1,0 +1,38 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<title>GeoXML3 Example Map</title>
+<link rel="stylesheet" type="text/css" href="css/index.css"/>
+<link rel="stylesheet" type="text/css" href="css/map.css"/>
+</head>
+<body>
+<div id="pagewidth" >
+	<div id="wrapper" class="clearfix">
+		<div id="maincol">
+			<div id="map"></div>
+			<div id="controls">
+				<form>
+					<fieldset>
+						<legend>Map Controls</legend>
+						<input type="checkbox" id="placemarktoggle" checked="checked" /><label for="placemarktoggle">Placemarks</label><br />
+						<input type="checkbox" id="polygontoggle" /><label for="polygontoggle">Polygons</label><br />
+						<input type="button" id="recenter" value="Recenter Map" />
+					</fieldset>
+				</form>
+			</div>
+		</div>
+
+		<div id="leftcol">
+			<img src="images/lightningwhelk.jpg" width="150" height="122" />
+			<ul id="placemarkList">
+			</ul>
+		</div>
+	</div>
+</div>
+<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+<script type="text/javascript" src="//maps.google.com/maps/api/js?sensor=true"></script>
+<script type="text/javascript" src="js/geoxml3.js"></script>
+<script type="text/javascript" src="js/map.js"></script>
+</body>
+</html>

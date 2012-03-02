@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<Document>
+  <name>Demo Map Containing Placemarks</name>
+  <description><![CDATA[A simple demonstration map containing the center of the East Carolina University campus, as well as placemarks for the Cotanche Building and Austin Building.]]></description>
+  <Style id="style3">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/purple-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style1">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style2">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Placemark>
+    <name>East Carolina University</name>
+    <description><![CDATA[<a href="http://www.ecu.edu">East Carolina University Web Site</a>]]></description>
+    <styleUrl>#style3</styleUrl>
+    <Point>
+      <coordinates>-77.366966,35.607479,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Austin Building</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style1</styleUrl>
+    <Point>
+      <coordinates>-77.362915,35.605907,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Cotanche Building</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style2</styleUrl>
+    <Point>
+      <coordinates>-77.370766,35.613628,0.000000</coordinates>
+    </Point>
+  </Placemark>
+</Document>
+</kml>

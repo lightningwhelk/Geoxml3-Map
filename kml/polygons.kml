@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<Document>
+  <name>Demo Map Containing Polygons</name>
+  <description><![CDATA[A simple demonstration map containing polygons representing parking areas adjacent to the Mendenhall Student Center and Austin Building.]]></description>
+  <Style id="style2">
+    <LineStyle>
+      <color>40000000</color>
+      <width>3</width>
+    </LineStyle>
+    <PolyStyle>
+      <color>73FF0000</color>
+      <fill>1</fill>
+      <outline>1</outline>
+    </PolyStyle>
+  </Style>
+  <Style id="style1">
+    <LineStyle>
+      <color>40000000</color>
+      <width>3</width>
+    </LineStyle>
+    <PolyStyle>
+      <color>73FF0000</color>
+      <fill>1</fill>
+      <outline>1</outline>
+    </PolyStyle>
+  </Style>
+  <Placemark>
+    <name>Mendenhall Parking Lot</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style2</styleUrl>
+    <Polygon>
+      <outerBoundaryIs>
+        <LinearRing>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -77.370872,35.606457,0.000000
+            -77.370796,35.606510,0.000000
+            -77.370842,35.606670,0.000000
+            -77.370789,35.606838,0.000000
+            -77.370674,35.606979,0.000000
+            -77.370499,35.607079,0.000000
+            -77.370407,35.607090,0.000000
+            -77.370377,35.606998,0.000000
+            -77.370026,35.606918,0.000000
+            -77.369781,35.606892,0.000000
+            -77.369423,35.606823,0.000000
+            -77.369255,35.606621,0.000000
+            -77.369377,35.606548,0.000000
+            -77.368797,35.606457,0.000000
+            -77.368851,35.606083,0.000000
+            -77.369476,35.606205,0.000000
+            -77.369507,35.606045,0.000000
+            -77.370872,35.606457,0.000000
+          </coordinates>
+        </LinearRing>
+      </outerBoundaryIs>
+    </Polygon>
+  </Placemark>
+  <Placemark>
+    <name>Austin Parking Lot</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style1</styleUrl>
+    <Polygon>
+      <outerBoundaryIs>
+        <LinearRing>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -77.363091,35.605335,0.000000
+            -77.362991,35.605335,0.000000
+            -77.362930,35.605453,0.000000
+            -77.362968,35.605465,0.000000
+            -77.362854,35.605648,0.000000
+            -77.362755,35.605618,0.000000
+            -77.362717,35.605679,0.000000
+            -77.362816,35.605717,0.000000
+            -77.362770,35.605770,0.000000
+            -77.362648,35.605701,0.000000
+            -77.362633,35.605747,0.000000
+            -77.362404,35.605659,0.000000
+            -77.362534,35.605366,0.000000
+            -77.362694,35.605160,0.000000
+            -77.363022,35.605289,0.000000
+            -77.363098,35.605282,0.000000
+            -77.363091,35.605335,0.000000
+          </coordinates>
+        </LinearRing>
+      </outerBoundaryIs>
+    </Polygon>
+  </Placemark>
+</Document>
+</kml>
