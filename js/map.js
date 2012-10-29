@@ -51,8 +51,8 @@ function customAfterParse(docSet) {
 //
 function completeInit() {
 	// Hide non-placemark layer(s)
-	//parser.hideDocument(parser.docs[1]);
-	//polygonsVisible = false;
+	parser.hideDocument(parser.docs[1]);
+	polygonsVisible = false;
 
 	// Add event handler for sidebar items
 	// Because we're using jQuery 1.7.1, we use on.
@@ -101,7 +101,7 @@ function completeInit() {
 	});
 	
 	// Polygon layer visiblity control
-	$("#polygonstoggle").on("click", function(e) {
+	$("#polygontoggle").on("click", function(e) {
 		if (polygonsVisible) {
 			parser.hideDocument(parser.docs[1]);
 			polygonsVisible = false;
